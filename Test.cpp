@@ -136,7 +136,7 @@ TEST_CASE("Character Information")
     CHECK(x.isAlive() == true);
     CHECK(z.isAlive() == true);
 
-    CHECK(Tom.getDS() == 110);
+    CHECK(Tom.getDS() == 110);//
     CHECK(s.getDS() == 50);
     CHECK(x.getDS() == 70);
     CHECK(z.getDS() == 30);
